@@ -26,6 +26,6 @@ jobs:
       - name: Check release tag
         run: node -e 'if (process.env.GITHUB_REF_NAME !== "v" + require("./package.json").version) process.exit(1)'
       - name: Publish with provenance
-        run: npm publish --provenance --access public
+        run: pnpm exec n8n-node release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
