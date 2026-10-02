@@ -141,8 +141,8 @@ this package.
 
 ## Publication
 
-The public source repository is `RevampOrg/n8n-nodes-revamp` (created; source
-publication is pending).
+The public source repository is
+[`RevampOrg/n8n-nodes-revamp`](https://github.com/RevampOrg/n8n-nodes-revamp).
 Public author: **Revamp Staff**, `contact@revamp.dev`.
 
 The `publish.yml` workflow builds and checks a tagged release, then publishes
