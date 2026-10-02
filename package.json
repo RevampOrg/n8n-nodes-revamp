@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-revamp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create or redesign websites with Revamp and follow their progress from your workflows.",
   "license": "MIT",
   "homepage": "https://revamp.dev/?utm_source=n8n&utm_medium=integration",
