@@ -1,0 +1,61 @@
+{
+  "name": "n8n-nodes-revamp",
+  "version": "0.1.0",
+  "description": "Create or redesign websites with Revamp and follow their progress from your workflows.",
+  "license": "MIT",
+  "homepage": "https://revamp.dev/?utm_source=n8n&utm_medium=integration",
+  "keywords": [
+    "n8n-community-node-package",
+    "website",
+    "website-builder",
+    "website-redesign",
+    "revamp"
+  ],
+  "author": {
+    "name": "Revamp Staff",
+    "email": "contact@revamp.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RevampOrg/n8n-nodes-revamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RevampOrg/n8n-nodes-revamp/issues"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "test": "pnpm build && node --test test/*.test.cjs",
+    "prepublishOnly": "n8n-node prerelease"
+  },
+  "files": [
+    "dist",
+    "examples",
+    "!dist/**/*.tsbuildinfo"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "strict": true,
+    "credentials": [
+      "dist/credentials/RevampOAuth2Api.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Revamp/Revamp.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "0.51.2",
+    "eslint": "9.29.0",
+    "prettier": "3.8.3",
+    "typescript": "5.9.3",
+    "n8n-workflow": "2.42.2"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
