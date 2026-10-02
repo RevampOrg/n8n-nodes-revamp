@@ -24,9 +24,9 @@ Revamp. This node does not replace or change the original website.
   n8n 2.41.6 or later and its automatic OAuth client registration support.
 - Package: `n8n-nodes-revamp`.
 
-This package is being prepared for its first publication and n8n verification.
-It is **not yet published or verified**. After npm publication, self-hosted
-instance owners can install it under **Settings → Community Nodes**. Once n8n
+The package is [published on npm](https://www.npmjs.com/package/n8n-nodes-revamp).
+It is **not yet verified by n8n**. Self-hosted instance owners can install it
+under **Settings → Community Nodes**. Once n8n
 approves verification, instances with verified community nodes enabled can
 discover and install **Revamp** from the node picker, including n8n Cloud.
 
@@ -37,7 +37,7 @@ Sign in to your own Revamp account and approve the connection. You do not need
 to copy an API key, client ID or client secret. n8n discovers Revamp's existing
 authorization service and registers its exact callback automatically. It owns
 the connection tokens, renewal and reconnect flow. Native Cloud and self-hosted
-connection/renewal checks remain release prerequisites.
+connection and renewal have not yet been verified end to end.
 
 Your n8n instance receives permission to work with your Revamp projects.
 Connect a dedicated test account for review rather than an administrator account.
