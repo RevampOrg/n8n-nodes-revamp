@@ -1,0 +1,12 @@
+{
+	"node": "n8n-nodes-revamp.revamp",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing & Content", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{ "url": "https://github.com/RevampOrg/n8n-nodes-revamp#credentials" }
+		],
+		"primaryDocumentation": [{ "url": "https://github.com/RevampOrg/n8n-nodes-revamp" }]
+	}
+}
